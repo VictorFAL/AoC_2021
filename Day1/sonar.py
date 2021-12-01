@@ -1,6 +1,6 @@
 report = input('Insert the sonar report below:\n')
 
-# Converting input string to a list
+# Converting input string to a int list
 lst = report.split(' ')
 lst = list(map(int, lst))
 
